@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yooooo</title>
+    <link rel="Stylesheet" href="estilo.css">
+
+
+     <!--CSS-->
+     <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        /*Estilo del cuerpo de la pagina*/
+        body {
+            font-family: Arial;
+            margin: 0;
+
+        }
+
+        /*Header/Logo y Titulo*/
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: rgb(232, 172, 61);
+            color: rgb(255, 255, 255);
+
+        }
+
+       
+        /*Estilo de la barra de navegacion*/
+        .navbar {
+            display: flex;
+            background-color: rgb(216, 120, 139);
+        }
+
+
+        /*Estilo de los enlaces de la barra de navegacion*/ 
+        .navbar a{ 
+color: rgb(247, 243, 239);
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+
+        }
+
+        /*Cambiar el color cuando paso el mouse*/
+        .navbar a:hover {
+            background-color: coral;
+            color: khaki;
+        }
+
+        /*Contenedor de columnas*/
+        .row {
+            display: flex ;
+            flex-wrap: wrap;
+
+        }
+
+        /*Barra lateral */ 
+        .side {
+            flex: 30%;
+            background-color: beige;
+            padding: 20px;
+        }
+
+        /*Columna principal*/
+      .main {
+        flex: 70%;
+        background-color: antiquewhite;
+        padding: 20px;
+      }
+
+      /*Footer*/ 
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: rgb(205, 169, 24);
+      }
+        
+      /*Responsive layout - when the screen is less than 700px wide, make the two column stack on top of each other instead of next to each other*/
+      @media and (max-width: 700px) {
+       .row,
+       .navbar {
+        flex-direction: column;
+       }
+
+      }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+    <div style="background-color: rgb(255, 255, 255);"> 
+        <h4 style="text-align: center;">Lil Núñez</h4>
+
+        <!--Barra de navegacion-->
+<div class="navbar"> 
+    <header>
+    <nav>
+
+
+        <ul>
+            <a href="index.html">Inicio</a>
+            <a href="sobremi.html">Yooooo</a>
+        </ul>
+    </nav>
+    </header>
+</div>
+    </div>
+
+    <!--Contenido-->
+    <div class="row">
+        <div class="side">
+            <h2>Un Poco sobre mi.</h2>
+            <p>Nací el 31 de Julio del 2007.</p>
+            
+            <p>Soy la hija mayor de mi mamá y la segunda de mi papá, vivo con mis padres y mi hermana pequeña.
+                Tengo una hermana pequeña (Dara) y mi hermana mayor (Juliette).
+            </p> 
+            <img src="imagenes/IMG_1567.JPG" width="200px">
+    
+           <p>Mi abuelo solía llamarme "Su India Canela".</p>
+           <img src="imagenes/IMG_7182.JPG" width="200px">
+
+
+            <p> Soy una persona introvertida y al mismo tiempo extrovertida, soy perseverante, aunque algo impaciente a veces, valoro mucho los momentos en familia y las tradiciones,
+            la confiaza y la lealtad son muy importates para mí en mis relaciones con los demas, Pienso que mi felicidad esta en las cosas simples, como compartir con la gente que quiero,
+            me gusta hacer reir a la gente, soy observadora y me fijo en los pequeños detalles que otros pueden tomar por alto y aprecio mucho la sinceridad, prefiero que me digan la verdad aunque duela.</p>
+
+            <h2>Mis comidas y postres favoritos:</h2>
+            <p>- Las papas gratinadas.</p>
+            <p>- La lasaña.</p>
+            <p>- Las hamburguesas con papa.</p>
+            <p>- El sancocho.</p>
+    
+            <p>- El helado.</p>
+            <p>- El pastel de chocolate.</p>
+            
+            <h2>Mis Intereses.</h2>
+            <p>- Me encanta bailar y cocinar.</p>
+            <p>- Me gusta salir y hacer actividades.</p>
+            <p>- Me gusta jugar y ver tenis, aunque no lo juegue mucho.</p>
+
+
+            
+            
+            
+            <h2>Amistades:</h2>
+            <p> Tengo a mis dos mejores amigas que quiero con el alma, Lía Sophia y Maria Olivia (Marioly).</p>
+            <img src="imagenes/IMG_2139.JPG" width="200px">
+    
+            <p> Y mi lindo novio, Juan Marcos.</p>
+            <img src="imagenes/Screen Shot 2025-03-30 at 9.22.24 PM.png" width="200">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Lil Núñez. Todos los derechos reservados</p>
+    </footer>
+
+
+</body>
+</html>

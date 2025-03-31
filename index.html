@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lil Amelia</title>
+    <link rel="Stylesheet" href="estilo.css">
+
+    <!--CSS-->
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        /*Estilo del cuerpo de la pagina*/
+        body {
+            font-family: Arial;
+            margin: 0;
+
+        }
+
+        /*Header/Logo y Titulo*/
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: rgb(232, 172, 61);
+            color: rgb(255, 255, 255);
+
+        }
+
+        /*Estilo de la barra de navegacion*/
+        .navbar {
+            display: flex;
+            background-color: rgb(216, 120, 139);
+        }
+
+
+        /*Estilo de los enlaces de la barra de navegacion*/ 
+        .navbar a{ 
+color: rgb(247, 243, 239);
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+
+        }
+
+        /*Cambiar el color cuando paso el mouse*/
+        .navbar a:hover {
+            background-color: coral;
+            color: khaki;
+        }
+
+        /*Contenedor de columnas*/
+        .row {
+            display: flex ;
+            flex-wrap: wrap;
+
+        }
+
+        /*Barra lateral */ 
+        .side {
+            flex: 30%;
+            background-color: beige;
+            padding: 20px;
+        }
+
+        /*Columna principal*/
+      .main {
+        flex: 70%;
+        background-color: antiquewhite;
+        padding: 20px;
+      }
+
+      /*Footer*/ 
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: rgb(205, 169, 24);
+      }
+        
+      /*Responsive layout - when the screen is less than 700px wide, make the two column stack on top of each other instead of next to each other*/
+      @media and (max-width: 700px) {
+       .row,
+       .navbar {
+        flex-direction: column;
+       }
+
+      }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+    <div style="background-color: rgb(255, 255, 255);"> 
+        <h4 style="text-align: center;">Bienvenidos</h4>
+
+    </div>
+
+    <!--Header-->
+    <div class="header"> 
+        <h1>A MI HOJA DE VIDA</h1>
+        <p>Una chica muy <b>alegre, optimista, cariñosa y amable.</b></p>
+    </div>
+
+<!--Barra de navegacion-->
+<div class="navbar"> 
+    
+        <nav>
+    
+    
+            <ul>
+        <a href="index.html">Inicio</a>
+        <a href="sobremi.html">Yooooo</a>
+            </ul>
+        </nav>
+        </header>
+</div>
+
+<!--Contenido-->
+<div class="row">
+    <div class="side">
+<h2> Quien Soy.</h2>
+<h5>Nombre: Lil Amelia Núñez Florimón</h5>
+<h5>Edad: 17 años</h5>
+<h5>Color favorito: Rosado</h5>
+<h5>Curso: 6to A de secundaria</h5>
+<div> <img src="imagenes/R5TG9526.JPG" alt=""></div>
+    </div>
+</div>
+<!--Footer-->
+<div>
+    <p>&copy; 2025 Lil Núñez. Todos los derechos reservados.</p>
+</div>
+
+</body>
+</html>

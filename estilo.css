@@ -1,0 +1,63 @@
+<style>
+        *{
+            box-sizing: border-box;
+        }
+
+        /*Estilo del cuerpo de la pagina*/
+        body {
+            font-family: Arial;
+            margin: 0;
+
+        }
+
+        /*Header/Logo y Titulo*/
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: rgb(232, 172, 61);
+            color: rgb(255, 255, 255);
+
+        }
+
+        /*Estilo de la barra de navegacion*/
+        .navbar {
+            display: flex;
+            background-color: rgb(216, 120, 139);
+        }
+
+
+        /*Estilo de los enlaces de la barra de navegacion*/ 
+        .navbar a{ 
+color: rgb(247, 243, 239);
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+
+        }
+
+        /*Cambiar el color cuando paso el mouse*/
+        .navbar a:hover {
+            background-color: coral;
+            color: khaki;
+        }
+
+        /*Contenedor de columnas*/
+        .row {
+            display: flex ;
+            flex-wrap: wrap;
+
+        }
+
+        /*Barra lateral */ 
+        .side {
+            flex: 30%;
+            background-color: beige;
+            padding: 20px;
+        }
+
+        /*Columna principal*/
+      .main {
+        flex: 70%;
+        background-color: antiquewhite;
+        padding: 20px;
+      }
